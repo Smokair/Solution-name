@@ -39,7 +39,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 74);
+            this.label1.Location = new System.Drawing.Point(337, 187);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 15);
             this.label1.TabIndex = 0;
@@ -48,7 +48,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 167);
+            this.label2.Location = new System.Drawing.Point(432, 187);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 15);
             this.label2.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // ctof
             // 
-            this.ctof.Location = new System.Drawing.Point(94, 100);
+            this.ctof.Location = new System.Drawing.Point(308, 234);
             this.ctof.Name = "ctof";
             this.ctof.Size = new System.Drawing.Size(100, 23);
             this.ctof.TabIndex = 2;
@@ -66,21 +66,21 @@
             // 
             // textC
             // 
-            this.textC.Location = new System.Drawing.Point(94, 71);
+            this.textC.Location = new System.Drawing.Point(308, 205);
             this.textC.Name = "textC";
             this.textC.Size = new System.Drawing.Size(100, 23);
             this.textC.TabIndex = 3;
             // 
             // textF
             // 
-            this.textF.Location = new System.Drawing.Point(94, 164);
+            this.textF.Location = new System.Drawing.Point(414, 205);
             this.textF.Name = "textF";
             this.textF.Size = new System.Drawing.Size(100, 23);
             this.textF.TabIndex = 4;
             // 
             // ftoc
             // 
-            this.ftoc.Location = new System.Drawing.Point(94, 135);
+            this.ftoc.Location = new System.Drawing.Point(414, 234);
             this.ftoc.Name = "ftoc";
             this.ftoc.Size = new System.Drawing.Size(100, 23);
             this.ftoc.TabIndex = 5;
@@ -100,7 +100,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form5";
-            this.Text = "Form1";
+            this.Text = "CelsiusToFahrenheit";
             this.ResumeLayout(false);
             this.PerformLayout();
 
