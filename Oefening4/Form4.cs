@@ -24,19 +24,42 @@ namespace Oefening4
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            int gloves_price = 10;
-            int boots_price = 30;
-            int hat_price = 6;
-            int skis_price = 700;
+
+
+        }
+
+        private void id_tax_rate_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gloves_price_TextChanged(object sender, EventArgs e)
+        {
             
-            if(numericUpDown2_ValueChanged != null)
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            int priceEach = 10;
+            string s1 = priceEach.ToString();
+            ext_gloves.Text = s1;
+
+            if (numericUpDown1.Equals(2))
             {
-                for(int i = 0; i < 4; i++)
-                {
-                    int ext_gloves = numericUpDown1 * gloves_price;
-                }
+                string s2 = priceEach.ToString();
+                ext_gloves.Text = s2;
             }
 
+        }
+
+        private void ext_gloves_TextChanged(object sender, EventArgs e)
+        {
+            //for(int i = 10; i < 100; i++)
+            //{
+            //    int waarde = 10;
+            //    string s1 = waarde.ToString();
+            //    ext_gloves.Text = s1;
+            //}
         }
     }
 }

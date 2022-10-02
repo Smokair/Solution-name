@@ -169,6 +169,7 @@
             this.gloves_price.Size = new System.Drawing.Size(61, 23);
             this.gloves_price.TabIndex = 11;
             this.gloves_price.Text = "10";
+            this.gloves_price.TextChanged += new System.EventHandler(this.gloves_price_TextChanged);
             // 
             // ext_hat
             // 
@@ -176,6 +177,7 @@
             this.ext_hat.Name = "ext_hat";
             this.ext_hat.Size = new System.Drawing.Size(100, 23);
             this.ext_hat.TabIndex = 18;
+            this.ext_hat.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // ext_skis
             // 
@@ -183,6 +185,7 @@
             this.ext_skis.Name = "ext_skis";
             this.ext_skis.Size = new System.Drawing.Size(100, 23);
             this.ext_skis.TabIndex = 17;
+            this.ext_skis.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // ext_boots
             // 
@@ -190,6 +193,7 @@
             this.ext_boots.Name = "ext_boots";
             this.ext_boots.Size = new System.Drawing.Size(100, 23);
             this.ext_boots.TabIndex = 16;
+            this.ext_boots.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // ext_gloves
             // 
@@ -197,6 +201,8 @@
             this.ext_gloves.Name = "ext_gloves";
             this.ext_gloves.Size = new System.Drawing.Size(100, 23);
             this.ext_gloves.TabIndex = 15;
+            this.ext_gloves.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.ext_gloves.TextChanged += new System.EventHandler(this.ext_gloves_TextChanged);
             // 
             // id_sales_tax
             // 
@@ -204,6 +210,7 @@
             this.id_sales_tax.Name = "id_sales_tax";
             this.id_sales_tax.Size = new System.Drawing.Size(100, 23);
             this.id_sales_tax.TabIndex = 22;
+            this.id_sales_tax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // id_shipping
             // 
@@ -211,6 +218,8 @@
             this.id_shipping.Name = "id_shipping";
             this.id_shipping.Size = new System.Drawing.Size(100, 23);
             this.id_shipping.TabIndex = 21;
+            this.id_shipping.Text = "€ 5.00";
+            this.id_shipping.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // id_tax_rate
             // 
@@ -218,7 +227,9 @@
             this.id_tax_rate.Name = "id_tax_rate";
             this.id_tax_rate.Size = new System.Drawing.Size(100, 23);
             this.id_tax_rate.TabIndex = 20;
-            this.id_tax_rate.Text = "0.10";
+            this.id_tax_rate.Text = "0.10%";
+            this.id_tax_rate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.id_tax_rate.TextChanged += new System.EventHandler(this.id_tax_rate_TextChanged);
             // 
             // id_subtotal
             // 
@@ -226,6 +237,7 @@
             this.id_subtotal.Name = "id_subtotal";
             this.id_subtotal.Size = new System.Drawing.Size(100, 23);
             this.id_subtotal.TabIndex = 19;
+            this.id_subtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // id_grand_total
             // 
@@ -233,6 +245,7 @@
             this.id_grand_total.Name = "id_grand_total";
             this.id_grand_total.Size = new System.Drawing.Size(100, 23);
             this.id_grand_total.TabIndex = 23;
+            this.id_grand_total.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label_subtotal
             // 
@@ -286,6 +299,7 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(53, 23);
             this.numericUpDown1.TabIndex = 29;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // numericUpDown4
             // 
