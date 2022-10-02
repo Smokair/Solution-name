@@ -4,7 +4,17 @@ namespace Oefening1
     {
         public Form1()
         {
-            InitializeComponent();
+             DialogResult d;
+            d = MessageBox.Show("Hallo & Welkom " + Environment.UserName + ", het is " + DateTime.Now.ToShortTimeString() + "u op " + DateTime.Now.ToShortDateString());
+            if (d == DialogResult.Yes)
+            {
+                Close();
+            }
         }
+
+        //private void Form1_Load(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }
