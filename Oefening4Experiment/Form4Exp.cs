@@ -6,12 +6,7 @@ namespace Oefening4Experiment
         {
             InitializeComponent();
         }
-        
-        private void numericUpDown1_ValueChanged(object senders, EventArgs e)
-        {
-            int stukp = 10;
-            string s1 = stukp.ToString();
-            ext_gloves.Text = s1;
-        }
+
+
     }
 }

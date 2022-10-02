@@ -327,7 +327,7 @@
             this.id_item.TabIndex = 34;
             this.id_item.Text = "Item";
             // 
-            // Form1
+            // Form4Exp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -363,7 +363,7 @@
             this.Controls.Add(this.id_price);
             this.Controls.Add(this.id_quantity);
             this.Controls.Add(this.id_item);
-            this.Name = "Form1";
+            this.Name = "Form4Exp";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
