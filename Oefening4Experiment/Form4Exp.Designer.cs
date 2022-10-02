@@ -365,6 +365,7 @@
             this.Controls.Add(this.id_item);
             this.Name = "Form4Exp";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form4Exp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();

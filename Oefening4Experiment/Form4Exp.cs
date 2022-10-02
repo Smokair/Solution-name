@@ -7,6 +7,9 @@ namespace Oefening4Experiment
             InitializeComponent();
         }
 
+        private void Form4Exp_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
