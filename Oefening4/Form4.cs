@@ -9,7 +9,7 @@ namespace Oefening4
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
@@ -28,7 +28,14 @@ namespace Oefening4
             int boots_price = 30;
             int hat_price = 6;
             int skis_price = 700;
-
+            
+            if(numericUpDown2_ValueChanged != null)
+            {
+                for(int i = 0; i < 4; i++)
+                {
+                    int ext_gloves = numericUpDown1 * gloves_price;
+                }
+            }
 
         }
     }

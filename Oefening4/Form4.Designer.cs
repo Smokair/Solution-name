@@ -39,30 +39,30 @@
             this.hat_price = new System.Windows.Forms.TextBox();
             this.skis_price = new System.Windows.Forms.TextBox();
             this.boots_price = new System.Windows.Forms.TextBox();
-            this.gloves_pricee = new System.Windows.Forms.TextBox();
+            this.gloves_price = new System.Windows.Forms.TextBox();
             this.ext_hat = new System.Windows.Forms.TextBox();
             this.ext_skis = new System.Windows.Forms.TextBox();
             this.ext_boots = new System.Windows.Forms.TextBox();
             this.ext_gloves = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.id_sales_tax = new System.Windows.Forms.TextBox();
+            this.id_shipping = new System.Windows.Forms.TextBox();
+            this.id_tax_rate = new System.Windows.Forms.TextBox();
+            this.id_subtotal = new System.Windows.Forms.TextBox();
+            this.id_grand_total = new System.Windows.Forms.TextBox();
             this.label_subtotal = new System.Windows.Forms.Label();
             this.label_tax_rate = new System.Windows.Forms.Label();
             this.label_grand_total = new System.Windows.Forms.Label();
             this.label_shipping = new System.Windows.Forms.Label();
             this.label_sales_tax = new System.Windows.Forms.Label();
-            this.qgloves = new System.Windows.Forms.NumericUpDown();
-            this.qskis = new System.Windows.Forms.NumericUpDown();
-            this.qhat = new System.Windows.Forms.NumericUpDown();
-            this.qboots = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.calculatebtn = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.qgloves)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qskis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qhat)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qboots)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
             // 
             // id_item
@@ -161,14 +161,14 @@
             this.boots_price.TabIndex = 12;
             this.boots_price.Text = "30";
             // 
-            // gloves_pricee
+            // gloves_price
             // 
-            this.gloves_pricee.Location = new System.Drawing.Point(377, 97);
-            this.gloves_pricee.Name = "gloves_pricee";
-            this.gloves_pricee.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.gloves_pricee.Size = new System.Drawing.Size(61, 23);
-            this.gloves_pricee.TabIndex = 11;
-            this.gloves_pricee.Text = "10";
+            this.gloves_price.Location = new System.Drawing.Point(377, 97);
+            this.gloves_price.Name = "gloves_price";
+            this.gloves_price.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.gloves_price.Size = new System.Drawing.Size(61, 23);
+            this.gloves_price.TabIndex = 11;
+            this.gloves_price.Text = "10";
             // 
             // ext_hat
             // 
@@ -198,40 +198,41 @@
             this.ext_gloves.Size = new System.Drawing.Size(100, 23);
             this.ext_gloves.TabIndex = 15;
             // 
-            // textBox13
+            // id_sales_tax
             // 
-            this.textBox13.Location = new System.Drawing.Point(450, 316);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 23);
-            this.textBox13.TabIndex = 22;
+            this.id_sales_tax.Location = new System.Drawing.Point(450, 316);
+            this.id_sales_tax.Name = "id_sales_tax";
+            this.id_sales_tax.Size = new System.Drawing.Size(100, 23);
+            this.id_sales_tax.TabIndex = 22;
             // 
-            // textBox14
+            // id_shipping
             // 
-            this.textBox14.Location = new System.Drawing.Point(450, 345);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 23);
-            this.textBox14.TabIndex = 21;
+            this.id_shipping.Location = new System.Drawing.Point(450, 345);
+            this.id_shipping.Name = "id_shipping";
+            this.id_shipping.Size = new System.Drawing.Size(100, 23);
+            this.id_shipping.TabIndex = 21;
             // 
-            // textBox15
+            // id_tax_rate
             // 
-            this.textBox15.Location = new System.Drawing.Point(450, 287);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 23);
-            this.textBox15.TabIndex = 20;
+            this.id_tax_rate.Location = new System.Drawing.Point(450, 287);
+            this.id_tax_rate.Name = "id_tax_rate";
+            this.id_tax_rate.Size = new System.Drawing.Size(100, 23);
+            this.id_tax_rate.TabIndex = 20;
+            this.id_tax_rate.Text = "0.10";
             // 
-            // textBox16
+            // id_subtotal
             // 
-            this.textBox16.Location = new System.Drawing.Point(450, 258);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 23);
-            this.textBox16.TabIndex = 19;
+            this.id_subtotal.Location = new System.Drawing.Point(450, 258);
+            this.id_subtotal.Name = "id_subtotal";
+            this.id_subtotal.Size = new System.Drawing.Size(100, 23);
+            this.id_subtotal.TabIndex = 19;
             // 
-            // textBox17
+            // id_grand_total
             // 
-            this.textBox17.Location = new System.Drawing.Point(450, 376);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 23);
-            this.textBox17.TabIndex = 23;
+            this.id_grand_total.Location = new System.Drawing.Point(450, 376);
+            this.id_grand_total.Name = "id_grand_total";
+            this.id_grand_total.Size = new System.Drawing.Size(100, 23);
+            this.id_grand_total.TabIndex = 23;
             // 
             // label_subtotal
             // 
@@ -279,34 +280,34 @@
             this.label_sales_tax.TabIndex = 28;
             this.label_sales_tax.Text = "Sales Tax";
             // 
-            // qgloves
+            // numericUpDown1
             // 
-            this.qgloves.Location = new System.Drawing.Point(292, 98);
-            this.qgloves.Name = "qgloves";
-            this.qgloves.Size = new System.Drawing.Size(53, 23);
-            this.qgloves.TabIndex = 29;
+            this.numericUpDown1.Location = new System.Drawing.Point(292, 98);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(53, 23);
+            this.numericUpDown1.TabIndex = 29;
             // 
-            // qskis
+            // numericUpDown4
             // 
-            this.qskis.Location = new System.Drawing.Point(292, 184);
-            this.qskis.Name = "qskis";
-            this.qskis.Size = new System.Drawing.Size(53, 23);
-            this.qskis.TabIndex = 30;
-            this.qskis.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
+            this.numericUpDown4.Location = new System.Drawing.Point(292, 184);
+            this.numericUpDown4.Name = "numericUpDown4";
+            this.numericUpDown4.Size = new System.Drawing.Size(53, 23);
+            this.numericUpDown4.TabIndex = 30;
+            this.numericUpDown4.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
             // 
-            // qhat
+            // numericUpDown3
             // 
-            this.qhat.Location = new System.Drawing.Point(292, 156);
-            this.qhat.Name = "qhat";
-            this.qhat.Size = new System.Drawing.Size(53, 23);
-            this.qhat.TabIndex = 31;
+            this.numericUpDown3.Location = new System.Drawing.Point(292, 156);
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(53, 23);
+            this.numericUpDown3.TabIndex = 31;
             // 
-            // qboots
+            // numericUpDown2
             // 
-            this.qboots.Location = new System.Drawing.Point(292, 127);
-            this.qboots.Name = "qboots";
-            this.qboots.Size = new System.Drawing.Size(53, 23);
-            this.qboots.TabIndex = 32;
+            this.numericUpDown2.Location = new System.Drawing.Point(292, 127);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(53, 23);
+            this.numericUpDown2.TabIndex = 32;
             // 
             // calculatebtn
             // 
@@ -325,20 +326,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(735, 480);
             this.Controls.Add(this.calculatebtn);
-            this.Controls.Add(this.qboots);
-            this.Controls.Add(this.qhat);
-            this.Controls.Add(this.qskis);
-            this.Controls.Add(this.qgloves);
+            this.Controls.Add(this.numericUpDown2);
+            this.Controls.Add(this.numericUpDown3);
+            this.Controls.Add(this.numericUpDown4);
+            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label_sales_tax);
             this.Controls.Add(this.label_shipping);
             this.Controls.Add(this.label_grand_total);
             this.Controls.Add(this.label_tax_rate);
             this.Controls.Add(this.label_subtotal);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.id_grand_total);
+            this.Controls.Add(this.id_sales_tax);
+            this.Controls.Add(this.id_shipping);
+            this.Controls.Add(this.id_tax_rate);
+            this.Controls.Add(this.id_subtotal);
             this.Controls.Add(this.ext_hat);
             this.Controls.Add(this.ext_skis);
             this.Controls.Add(this.ext_boots);
@@ -346,7 +347,7 @@
             this.Controls.Add(this.hat_price);
             this.Controls.Add(this.skis_price);
             this.Controls.Add(this.boots_price);
-            this.Controls.Add(this.gloves_pricee);
+            this.Controls.Add(this.gloves_price);
             this.Controls.Add(this.id_hat);
             this.Controls.Add(this.id_skis);
             this.Controls.Add(this.id_boots);
@@ -358,10 +359,10 @@
             this.Name = "Form4";
             this.Text = "SalesTaxCalculator";
             this.Load += new System.EventHandler(this.Form4_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.qgloves)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qskis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qhat)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qboots)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -380,25 +381,25 @@
         private TextBox hat_price;
         private TextBox skis_price;
         private TextBox boots_price;
-        private TextBox gloves_pricee;
+        private TextBox gloves_price;
         private TextBox ext_hat;
         private TextBox ext_skis;
         private TextBox ext_boots;
         private TextBox ext_gloves;
-        private TextBox textBox13;
-        private TextBox textBox14;
-        private TextBox textBox15;
-        private TextBox textBox16;
-        private TextBox textBox17;
+        private TextBox id_sales_tax;
+        private TextBox id_shipping;
+        private TextBox id_tax_rate;
+        private TextBox id_subtotal;
+        private TextBox id_grand_total;
         private Label label_subtotal;
         private Label label_tax_rate;
         private Label label_grand_total;
         private Label label_shipping;
         private Label label_sales_tax;
-        private NumericUpDown qgloves;
-        private NumericUpDown qskis;
-        private NumericUpDown qhat;
-        private NumericUpDown qboots;
+        private NumericUpDown numericUpDown1;
+        private NumericUpDown numericUpDown4;
+        private NumericUpDown numericUpDown3;
+        private NumericUpDown numericUpDown2;
         private Button calculatebtn;
     }
 }
