@@ -10,8 +10,13 @@ namespace Oefening5
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            int celsius = 0;
-            
+
+        }
+
+        private void button1(object sender, EventArgs e)
+        {
+            double celsius = 0.0, fahrenheit = 0.0;
+            fahrenheit = Convert.ToDouble(textf.Text);
         }
     }
 }
